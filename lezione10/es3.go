@@ -35,7 +35,7 @@ func SeparaParole(s string) []string{
 			if len(temp) != 0{
 			SlString=append(SlString,string(temp))
 			}
-			temp = []rune{}
+		temp = []rune{}
 		}
 	}
 	if len(temp) != 0{
